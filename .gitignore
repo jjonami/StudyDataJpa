@@ -176,3 +176,5 @@ build/
 .settings
 .springBeans
 .sts4-cache
+
+/SampleDB/

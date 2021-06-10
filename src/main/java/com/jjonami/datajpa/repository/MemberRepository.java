@@ -1,16 +1,8 @@
 package com.jjonami.datajpa.repository;
 
-import com.jjonami.datajpa.dto.MemberDto;
 import com.jjonami.datajpa.entity.Member;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.*;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
-import javax.persistence.LockModeType;
-import java.util.List;
-import java.util.Optional;
 
 @Repository
 public interface MemberRepository extends JpaRepository<Member, Long> {
